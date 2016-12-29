@@ -16,10 +16,12 @@ DefaultDirName={pf}\Hue Gaming
 DisableProgramGroupPage=yes
 LicenseFile=..\..\docs\LICENSE
 ;OutputDir=TBD
-OutputBaseFilename=Hue Gaming Setup
+OutputBaseFilename=HueGaming-setup
 DisableWelcomePage=false
+WizardImageFile=..\Resource\HueGamingWizardImage.bmp
 Compression=lzma
 SolidCompression=yes
+SetupIconFile=..\Resource\HueGaming.ico
 
 
 [Languages]
