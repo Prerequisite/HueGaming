@@ -1,35 +1,18 @@
 ## Information 
-
 [![Build Status](https://travis-ci.org/Prerequisite/HueGaming.svg?branch=master)](https://travis-ci.org/Prerequisite/HueGaming)
 
-### Markdown
+Hue Gaming works in conjuction with connected lights to create a immersive atmosphere, by altering each light independently to reflect what is displayed on the screen.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+> **Note:**  The application currently only supports Philips Hue lights, however Lifx support is planned in future revisions.
+_Performance may be affected at resolutions higher than 1080p._
 
-```markdown
-Syntax highlighted code block
+### Requirements
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Prerequisite/HueGaming/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Hue Gaming requires the following to be installed and reachable on the network prior to launch.
+- .NET 4.6.2
+- 1x Philips Hue Bridge
+- 1x Philips Hue Lights (3 Recommended)
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+If you encounter a bug please raise an issue on [GitHub](https://github.com/Prerequisite/HueGaming/issues), providing as much information about the behavior and error messages in the request to expedite debugging.
